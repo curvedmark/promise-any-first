@@ -1,0 +1,34 @@
+{
+  "name": "promise-any-first",
+  "version": "1.0.0",
+  "description": "Utility for working with an array of promises",
+  "main": "lib/anyFirst.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curvedmark/promise-any-first.git"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "array"
+  ],
+  "author": "Glen Huang <curvedmark@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curvedmark/promise-any-first/issues"
+  },
+  "dependencies": {
+    "promise-now": "1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "mocha-as-promised": "1.x"
+  }
+}
